@@ -1,0 +1,96 @@
+.userdata-container {
+  padding: 2rem;
+  background-image: url("C:/Users/LENOVO/Desktop/vs code programs/api_login/src/image/178385.png");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#hding{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.table {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: #f5f5f5;
+
+  th {
+    background-color: rgb(172, 166, 166);
+    color: #fff;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.edit-button {
+  color: rgb(57, 179, 57);
+  background-color: #fff;
+  border: .5px solid rgb(57, 179, 57);
+  &:hover {
+    background-color: rgb(57, 179, 57);
+    color: #fff;
+    border: .5px solid #fff;
+
+  }
+}
+
+.delete-button {
+  background-color: white;
+  color: rgb(161, 53, 53);
+  border: .5px solid rgb(161, 53, 53);
+  &:hover {
+    color: white;
+    background-color: rgb(161, 53, 53);
+    border: .5px solid #fff;
+
+  }
+}
+
+button {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 0.5rem;
+
+ 
+}
+.previous-button {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .table {
+    max-width: 500px;
+  }
+}
