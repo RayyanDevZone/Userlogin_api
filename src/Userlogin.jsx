@@ -58,7 +58,7 @@ const Userlogin = () => {
   return (
     <div className="main">
       <nav id="navbar">
-        <img src="https://www.shutterstock.com/image-vector/spy-agent-hacker-anonymous-white-600w-1722014434.jpg" />
+        <img src="https://www.shutterstock.com/image-vector/spy-agent-hacker-anonymous-white-600w-1722014434.jpg" alt=""/>
         <h1 id="logo">The WhiteHat</h1>
       </nav>
   

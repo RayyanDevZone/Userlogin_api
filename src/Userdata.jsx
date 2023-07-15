@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "./Userdata.scss";
-import backgroundImage from "C:/Users/LENOVO/Desktop/vs code programs/api_login/src/image/178385.png";
 
 const Userdata = () => {
   const [userData, setUserData] = useState([]);
@@ -48,7 +47,7 @@ const Userdata = () => {
   };
 
   return (
-    <div className="userdata-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="userdata-container" >
       <h1 id="hding">User Data</h1>
       <Link to="/" className="previous-button">
         ⬅ Previous page
