@@ -50,7 +50,7 @@ const Userdata = () => {
   return (
     <div className="userdata-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <h1 id="hding">User Data</h1>
-      <Link to="/userlogin" className="previous-button">
+      <Link to="/" className="previous-button">
         ⬅ Previous page
       </Link>
       <table className="table">
